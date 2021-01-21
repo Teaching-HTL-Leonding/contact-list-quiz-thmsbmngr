@@ -7,7 +7,7 @@ namespace ContactListApi.Services
 {
     public record Contact(int Id, string FirstName, string LastName, string Email);
 
-    public class ContactRepository : IContactRepository
+    public class ContactsRepository : IContactsRepository
     {
         private List<Contact> Contacts { get; } = new();
 

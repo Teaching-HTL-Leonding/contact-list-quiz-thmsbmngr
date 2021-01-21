@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ContactListApi.Services
 {
-    public interface IContactRepository
+    public interface IContactsRepository
     {
         Contact Add(Contact newContact);
         IEnumerable<Contact> GetAll();
